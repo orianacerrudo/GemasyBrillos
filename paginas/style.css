@@ -23,6 +23,9 @@ body {
   color: #fbfaff;
   background-color: #c8b6ff;
 }
+.navbar {
+  padding-top: 0%;
+}
 .nav1 {
   background-color: #c8b6ff;
   width: 100%;
@@ -48,8 +51,11 @@ body {
 
 /* BODY */
 .h2-p-m-s {
-  color: #9667e0;
-  background-color: #ebd9fc;
+  color: white;
+  background-color: #c8b6ff;
+  width: 90%;
+  text-align: center;
+  margin: auto;
 }
 .container-section {
   display: flex;
@@ -91,6 +97,10 @@ span {
 .span-footer {
   color: #9667e0;
 }
+.carousel {
+  width: 90%;
+  margin: auto;
+}
 
 /* FOOTER */
 footer {
@@ -98,7 +108,7 @@ footer {
 }
 .fondofooter {
   background-color: #ebd9fc;
-  padding: 3%;
+  padding: 2%;
 }
 .derechos {
   text-decoration-color: black;
@@ -133,6 +143,11 @@ ul li a {
 footer li:hover {
   background-color: #fbfaff;
 }
+ol,
+ul {
+  padding-left: 0%;
+}
+
 /* VISTA DESKTOP */
 @media (min-width: 992px) {
   .nav-texto {
@@ -172,5 +187,13 @@ footer li:hover {
     margin-block: auto;
     width: 45%;
     margin: auto 2%;
+  }
+
+  /* pagina productos */
+  .carousel {
+    width: 80%;
+  }
+  .h2-p-m-s {
+    width: 80%;
   }
 }
