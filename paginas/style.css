@@ -101,6 +101,35 @@ span {
   width: 90%;
   margin: auto;
 }
+.img-materiales {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.div-mat {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  background-color: #ebd9fc;
+  color: #9667e0;
+}
+.p-materiales {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  color: #9667e0;
+}
+.caja-materiales {
+  background-color: #dbc5ff;
+  border-style: solid;
+  border-color: #ebd9fc;
+  padding: 2%;
+  width: 90%;
+  margin: auto;
+}
 
 /* FOOTER */
 footer {
@@ -148,6 +177,22 @@ ul {
   padding-left: 0%;
 }
 
+/* VISTA TABLET */
+@media (min-width: 768px) {
+  .h2-m {
+    width: 75%;
+  }
+  h3 {
+    width: 75%;
+  }
+  .img-materiales {
+    width: 75%;
+  }
+  .caja-materiales {
+    width: 75%;
+  }
+}
+
 /* VISTA DESKTOP */
 @media (min-width: 992px) {
   .nav-texto {
@@ -191,9 +236,24 @@ ul {
 
   /* pagina productos */
   .carousel {
-    width: 80%;
+    width: 60%;
   }
   .h2-p-m-s {
-    width: 80%;
+    width: 60%;
+  }
+
+  /* pagina materiales */
+  .h2-m {
+    width: 100%;
+    margin: 0%;
+  }
+  h3 {
+    width: 50%;
+  }
+  .img-materiales {
+    width: 50%;
+  }
+  .caja-materiales {
+    width: 50%;
   }
 }
