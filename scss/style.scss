@@ -134,6 +134,15 @@ h3 {
 /* FOOTER */
 footer {
   font-size: small;
+  ul {
+    background-color: #ebd9fc;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+  }
+  li {
+    display: inline-flex;
+  }
 }
 .fondofooter {
   background-color: #ebd9fc;
@@ -154,20 +163,15 @@ footer {
 h6 {
   text-align: center;
 }
-footer ul {
-  background-color: #ebd9fc;
-  width: 100%;
-  list-style-type: none;
-  text-align: center;
-}
-footer li {
-  display: inline-flex;
-}
-ul li a {
-  text-decoration: none;
-  color: #9667e0;
-  padding: 10px;
-  width: 150px;
+ul {
+  li {
+    a {
+      text-decoration: none;
+      color: #9667e0;
+      padding: 10px;
+      width: 150px;
+    }
+  }
 }
 footer li:hover {
   background-color: #fbfaff;
