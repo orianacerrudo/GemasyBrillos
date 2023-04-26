@@ -3,7 +3,6 @@
   margin: 0%;
 }
 
-/* VARIABLES */
 /* FONDO */
 body {
   background-color: #f0f0f0;
@@ -15,7 +14,6 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* NAV */
 .titulo-desktop {
   display: none;
 }
@@ -56,7 +54,6 @@ body {
   color: white;
 }
 
-/* BODY */
 .h2-p-m-s {
   color: white;
   background-color: #c8b6ff;
@@ -153,7 +150,6 @@ h3 {
   margin: auto;
 }
 
-/* FOOTER */
 footer {
   font-size: small;
 }

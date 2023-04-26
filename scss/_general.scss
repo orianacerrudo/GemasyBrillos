@@ -1,0 +1,80 @@
+.h2-p-m-s {
+  color: white;
+  background-color: $violeta2;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.container-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagen1 {
+  width: 85%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ebd9fc;
+}
+.div-img {
+  text-align: center;
+  margin: 0 6% 0 6%;
+}
+.sobre-nosotros {
+  margin: 7%;
+  text-align: center;
+  width: 85%;
+}
+.sobre-nosotros-fondo {
+  background-color: #dbc5ff;
+  border-style: solid;
+  border-color: #ebd9fc;
+  border-width: 5px;
+  padding: 30px;
+}
+.subtitulo {
+  color: white;
+}
+.parrafo {
+  font-weight: bold;
+  color: $violetafuerte;
+}
+span {
+  color: white;
+}
+.span-footer {
+  color: $violetafuerte;
+}
+.carousel {
+  width: 90%;
+  margin: auto;
+}
+.img-materiales {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.div-mat {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  background-color: #ebd9fc;
+  color: $violetafuerte;
+}
+.p-materiales {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  color: $violetafuerte;
+}
+.caja-materiales {
+  background-color: #dbc5ff;
+  border-style: solid;
+  border-color: #ebd9fc;
+  padding: 2%;
+  width: 90%;
+  margin: auto;
+}

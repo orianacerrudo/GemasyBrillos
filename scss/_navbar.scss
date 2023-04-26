@@ -1,0 +1,33 @@
+.titulo-desktop {
+  display: none;
+}
+.titulo {
+  width: 100%;
+  color: #fbfaff;
+  background-color: $violeta2;
+}
+.navbar {
+  padding-top: 0%;
+}
+.nav1 {
+  background-color: $violeta2;
+  width: 100%;
+  list-style-type: none;
+  text-align: left;
+}
+.nav2 {
+  display: inline-flex;
+  padding: 0.2%;
+  &.nav2:hover {
+    background-color: #fbfaff;
+  }
+}
+.nav-texto {
+  text-decoration: none;
+  color: $violetafuerte;
+  padding: 15px;
+  width: 150px;
+}
+.navbar-toggler {
+  color: white;
+}

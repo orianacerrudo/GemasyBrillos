@@ -1,0 +1,80 @@
+/* VISTA TABLET */
+@media (min-width: 768px) {
+  .h2-m {
+    width: 75%;
+  }
+  h3 {
+    width: 75%;
+  }
+  .img-materiales {
+    width: 75%;
+  }
+  .caja-materiales {
+    width: 75%;
+  }
+}
+
+/* VISTA DESKTOP */
+@media (min-width: 992px) {
+  .nav-texto {
+    text-align: center;
+  }
+  .titulo {
+    display: none;
+  }
+  .titulo-desktop {
+    display: block;
+    text-align: center;
+    color: #fbfaff;
+    background-color: $violeta2;
+    margin-bottom: 0%;
+  }
+  .navbar-nav {
+    background-color: #ebd9fc;
+  }
+  div.container-fluid.titulo {
+    background-color: #ebd9fc;
+  }
+  ul.navbar-nav.nav1 {
+    justify-content: center;
+  }
+  .container-section {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .div-img {
+    margin: 0%;
+  }
+  .imagen1 {
+    width: 70%;
+  }
+  .sobre-nosotros {
+    display: block;
+    margin-block: auto;
+    width: 45%;
+    margin: auto 2%;
+  }
+
+  /* pagina productos */
+  .carousel {
+    width: 60%;
+  }
+  .h2-p-m-s {
+    width: 60%;
+  }
+
+  /* pagina materiales */
+  .h2-m {
+    width: 100%;
+    margin: 0%;
+  }
+  h3 {
+    width: 50%;
+  }
+  .img-materiales {
+    width: 50%;
+  }
+  .caja-materiales {
+    width: 50%;
+  }
+}

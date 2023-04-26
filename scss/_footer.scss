@@ -1,0 +1,48 @@
+footer {
+  font-size: small;
+  ul {
+    background-color: #ebd9fc;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+  }
+  li {
+    display: inline-flex;
+    &:hover {
+      background-color: #fbfaff;
+    }
+  }
+}
+.fondofooter {
+  background-color: #ebd9fc;
+  padding: 2%;
+}
+.derechos {
+  text-decoration-color: black;
+  text-align: center;
+}
+.colorderechos {
+  color: #9567e081;
+}
+.footercontacto {
+  text-decoration-color: black;
+  text-align: center;
+  list-style-type: none;
+}
+h6 {
+  text-align: center;
+}
+ul {
+  li {
+    a {
+      text-decoration: none;
+      color: $violetafuerte;
+      padding: 10px;
+      width: 150px;
+    }
+  }
+}
+ol,
+ul {
+  padding-left: 0%;
+}
