@@ -3,6 +3,7 @@
   margin: 0%;
 }
 
+/* VARIABLES */
 /* FONDO */
 body {
   background-color: #f0f0f0;
@@ -40,8 +41,7 @@ body {
   display: inline-flex;
   padding: 0.2%;
 }
-
-.nav2:hover {
+.nav2.nav2:hover {
   background-color: #fbfaff;
 }
 
@@ -166,6 +166,9 @@ footer ul {
 footer li {
   display: inline-flex;
 }
+footer li:hover {
+  background-color: #fbfaff;
+}
 
 .fondofooter {
   background-color: #ebd9fc;
@@ -196,10 +199,6 @@ ul li a {
   color: #9667e0;
   padding: 10px;
   width: 150px;
-}
-
-footer li:hover {
-  background-color: #fbfaff;
 }
 
 ol,
