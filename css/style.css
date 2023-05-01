@@ -150,6 +150,14 @@ h3 {
   margin: auto;
 }
 
+.card {
+  margin: 10px 25px;
+}
+
+.col-sm-6 {
+  width: 100%;
+}
+
 footer {
   font-size: small;
 }
@@ -204,6 +212,9 @@ ul {
 
 /* VISTA TABLET */
 @media (min-width: 768px) {
+  .h2-p-m-s {
+    width: 95%;
+  }
   .h2-m {
     width: 75%;
   }
@@ -215,6 +226,9 @@ ul {
   }
   .caja-materiales {
     width: 75%;
+  }
+  .col-sm-6 {
+    width: 50%;
   }
 }
 /* VISTA DESKTOP */
@@ -259,9 +273,6 @@ ul {
   }
   /* pagina productos */
   .carousel {
-    width: 60%;
-  }
-  .h2-p-m-s {
     width: 60%;
   }
   /* pagina materiales */

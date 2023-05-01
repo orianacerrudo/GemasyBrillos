@@ -1,5 +1,8 @@
 /* VISTA TABLET */
 @media (min-width: 768px) {
+  .h2-p-m-s {
+    width: 95%;
+  }
   .h2-m {
     width: 75%;
   }
@@ -11,6 +14,9 @@
   }
   .caja-materiales {
     width: 75%;
+  }
+  .col-sm-6 {
+    width: 50%;
   }
 }
 
@@ -57,9 +63,6 @@
 
   /* pagina productos */
   .carousel {
-    width: 60%;
-  }
-  .h2-p-m-s {
     width: 60%;
   }
 
