@@ -18,6 +18,13 @@
   .col-sm-6 {
     width: 50%;
   }
+  #fondo-descubri {
+    height: 190px;
+  }
+  #link {
+    padding: 2%;
+    margin: 4%;
+  }
 }
 
 /* VISTA DESKTOP */
@@ -59,6 +66,17 @@
     margin-block: auto;
     width: 45%;
     margin: auto 2%;
+  }
+  #fondo-descubri {
+    margin-top: 45px;
+    height: auto;
+  }
+  #link {
+    padding: 1%;
+    margin: 3%;
+  }
+  #links {
+    margin-bottom: 25px;
   }
 
   /* pagina productos */
