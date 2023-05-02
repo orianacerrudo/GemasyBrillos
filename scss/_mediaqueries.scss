@@ -25,6 +25,16 @@
     padding: 2%;
     margin: 4%;
   }
+  #fondo-contacto {
+    width: 75%;
+    margin: 2% auto;
+  }
+  .fondo-form {
+    width: 75%;
+  }
+  .newsletter-form {
+    margin: 0% 22%;
+  }
 }
 
 /* VISTA DESKTOP */
@@ -80,6 +90,12 @@
   }
   #links {
     margin-bottom: 25px;
+  }
+  #fondo-contacto {
+    width: 65%;
+  }
+  .fondo-form {
+    width: 65%;
   }
 
   /* pagina productos */

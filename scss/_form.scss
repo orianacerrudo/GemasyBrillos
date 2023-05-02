@@ -1,0 +1,25 @@
+.fondo-form {
+  background-color: #dbc5ff;
+  width: 95%;
+  border-style: solid;
+  border-color: #ebd9fc;
+  border-width: 5px;
+  padding: 2%;
+}
+.h2-form {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.control-label {
+  color: $violetafuerte;
+  font-weight: bold;
+}
+.form-group {
+  margin: 2%;
+}
+.boton-form {
+  color: $violetafuerte;
+  font-weight: bold;
+  background-color: white;
+}

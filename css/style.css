@@ -211,12 +211,12 @@ h3 {
 
 #fondo-contacto {
   background-color: #dbc5ff;
-  height: 150px;
+  height: auto;
   margin: 2%;
   border-style: solid;
   border-color: #ebd9fc;
   border-width: 5px;
-  padding: 5%;
+  padding: 3%;
 }
 
 #redes {
@@ -237,9 +237,9 @@ h3 {
 
 #fondo-contacto2 {
   width: 100%;
-  height: 180px;
+  height: auto;
   background-color: rgba(219, 197, 255, 0.5137254902);
-  padding: 5%;
+  padding: 3%;
 }
 
 #whatsapp {
@@ -248,6 +248,36 @@ h3 {
 
 #num {
   color: #9667e0;
+}
+
+.fondo-form {
+  background-color: #dbc5ff;
+  width: 95%;
+  border-style: solid;
+  border-color: #ebd9fc;
+  border-width: 5px;
+  padding: 2%;
+}
+
+.h2-form {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.control-label {
+  color: #9667e0;
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 2%;
+}
+
+.boton-form {
+  color: #9667e0;
+  font-weight: bold;
+  background-color: white;
 }
 
 footer {
@@ -329,6 +359,16 @@ ul {
     padding: 2%;
     margin: 4%;
   }
+  #fondo-contacto {
+    width: 75%;
+    margin: 2% auto;
+  }
+  .fondo-form {
+    width: 75%;
+  }
+  .newsletter-form {
+    margin: 0% 22%;
+  }
 }
 /* VISTA DESKTOP */
 @media (min-width: 992px) {
@@ -383,6 +423,12 @@ ul {
   }
   #links {
     margin-bottom: 25px;
+  }
+  #fondo-contacto {
+    width: 65%;
+  }
+  .fondo-form {
+    width: 65%;
   }
   /* pagina productos */
   .h2-p-m-s {
