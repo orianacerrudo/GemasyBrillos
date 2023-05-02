@@ -67,6 +67,9 @@
     width: 45%;
     margin: auto 2%;
   }
+  #desktop {
+    display: block;
+  }
   #fondo-descubri {
     margin-top: 45px;
     height: auto;
@@ -80,8 +83,12 @@
   }
 
   /* pagina productos */
-  .carousel {
-    width: 60%;
+  .h2-p-m-s {
+    width: 100%;
+  }
+  .col-sm-6 {
+    width: 40%;
+    margin: auto;
   }
 
   /* pagina materiales */
@@ -90,12 +97,12 @@
     margin: 0%;
   }
   h3 {
-    width: 50%;
+    width: 43%;
   }
   .img-materiales {
-    width: 50%;
+    width: 43%;
   }
   .caja-materiales {
-    width: 50%;
+    width: 43%;
   }
 }
