@@ -94,18 +94,18 @@ h3 {
   margin: auto;
   display: flex;
   flex-direction: column;
-  height: 200px;
   background-color: #dbc5ff83;
 }
 #h3-index {
   margin-top: 25px;
   width: auto;
-  height: 40px;
+  height: auto;
 }
 #links {
   display: inline-flex;
   justify-content: center;
   margin-bottom: 15px;
+  height: auto;
 }
 #link {
   text-align: center;
