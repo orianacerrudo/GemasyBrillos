@@ -12,14 +12,12 @@
   margin: auto;
 }
 .control-label {
-  color: $violetafuerte;
-  font-weight: bold;
+  @include letra;
 }
 .form-group {
   margin: 2%;
 }
 .boton-form {
-  color: $violetafuerte;
-  font-weight: bold;
+  @include letra;
   background-color: white;
 }

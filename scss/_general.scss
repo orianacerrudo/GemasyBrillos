@@ -39,8 +39,7 @@
   color: white;
 }
 .parrafo {
-  font-weight: bold;
-  color: $violetafuerte;
+  @include letra;
 }
 span {
   color: white;
@@ -125,8 +124,7 @@ h3 {
 }
 .h2-contacto {
   text-align: center;
-  color: $violetafuerte;
-  font-weight: bold;
+  @include letra;
 }
 #fondo-contacto {
   background-color: #dbc5ff;
