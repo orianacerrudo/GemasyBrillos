@@ -47,10 +47,6 @@ span {
 .span-footer {
   color: $violetafuerte;
 }
-.carousel {
-  width: 90%;
-  margin: auto;
-}
 .img-materiales {
   width: 90%;
   margin: auto;
@@ -163,4 +159,8 @@ h3 {
 .img-shop {
   width: 220px;
   object-fit: cover;
+}
+.row {
+  margin-right: 0%;
+  margin-left: 0%;
 }

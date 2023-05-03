@@ -103,8 +103,8 @@ body {
 }
 
 .parrafo {
-  font-weight: bold;
   color: #9667e0;
+  font-weight: bold;
 }
 
 span {
@@ -113,11 +113,6 @@ span {
 
 .span-footer {
   color: #9667e0;
-}
-
-.carousel {
-  width: 90%;
-  margin: auto;
 }
 
 .img-materiales {
@@ -253,6 +248,11 @@ h3 {
 .img-shop {
   width: 220px;
   object-fit: cover;
+}
+
+.row {
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 .fondo-form {
