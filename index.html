@@ -27,6 +27,8 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <!-- TODAS LAS IMAGENES DE LA WEB NO VAN A SER LAS IMAGENES FINALES, SON SOLO GENERICAS -->
@@ -86,14 +88,14 @@
 
     <main>
       <div class="container-section">
-        <div class="div-img">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="div-img">
           <img
             class="imagen1"
             src="https://img.freepik.com/fotos-premium/dos-pulseras-oro-perlas-sobre-fondo-beige-morado-espacio-copia_112112-1068.jpg"
             alt="joyas varias"
           />
         </div>
-        <div class="sobre-nosotros">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="sobre-nosotros">
           <!-- INFO -->
 
           <div class="sobre-nosotros-fondo">
@@ -114,7 +116,7 @@
         </div>
       </div>
       <br id="desktop" />
-      <div class="fondo-descubri">
+      <div data-aos="zoom-in" data-aos-duration="1000" class="fondo-descubri">
         <h3 id="h3-index">Descubrí todos nuestros productos...</h3>
         <div id="links">
           <a id="link" href="paginas/productos.html"> Productos </a>
@@ -152,5 +154,10 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
