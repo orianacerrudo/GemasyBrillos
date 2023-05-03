@@ -250,6 +250,11 @@ h3 {
   color: #9667e0;
 }
 
+.img-shop {
+  width: 220px;
+  object-fit: cover;
+}
+
 .fondo-form {
   background-color: #dbc5ff;
   width: 95%;
