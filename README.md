@@ -9,6 +9,6 @@ Este proyecto es una página web simple creada con HTML5 y CSS para mostrar los 
 - Aplicación de SEO.
 
 ## Herramientas utilizadas
--CSS/SASS
--BOOTSTRAP
+- CSS/SASS
+- BOOTSTRAP
 
